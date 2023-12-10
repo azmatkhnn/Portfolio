@@ -1,0 +1,403 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+    background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: "Poppins", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* margin-top: 15px; */
+  height: 70px;
+  background-color: rgb(18, 18, 62);
+        box-shadow: 0px 0px 20px 5px #000000ba;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.left{
+    font-size: 30px;
+}
+ul li {
+  margin: 20px;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+ul li a:hover{
+  color: rgb(159, 81, 233);
+}
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px 0;
+  height: 35vw;
+}
+.purple {
+    color: rgb(159, 81, 233);
+  }
+  #element {
+    color: rgb(159, 81, 233);
+  }
+.leftSection {
+  font-size: 30px;
+}
+.rightSection img {
+  width: 70%;
+  margin: 5px;
+  /* border: 5px solid gray; */
+  border-radius: 10px;
+        box-shadow: 15px 10px 10px 0px #000000bb;
+}
+.firstSection > div {
+  width: 35%;
+}
+ hr {
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 40px 84px;
+  }
+.text-gray{
+    color: gray;
+}  
+.secondSection {
+  margin-left: 95px;
+  margin-top: 20px;
+  height: 720px;
+}
+.thirdSection{
+  height: 100px;
+  margin-top: 6%;
+  margin-bottom: 4%;
+  width: 50%;
+  text-align: center;
+  color: white;
+  position: relative;
+  left: 28%;
+  font-size: small;
+}
+.vertical-line {
+  display: flex;
+  color: rgb(255, 255, 255);
+  width: 80vw;
+  height: 2px;
+  margin: 56px 0;
+  background-color: white;
+  justify-content: center;
+}
+.horizontal{
+    background-color: white;
+    height: 90px;
+    width: 1px;
+    margin: 0 100px;
+}
+.image{
+    width: 20px;
+    position: relative;
+    left: -8px;
+    top: -30px;
+}
+.title{
+    position: relative;
+    top: 75px;
+    left: -6px;
+}
+.description{
+    font-size: small;
+    width: 180px;
+    position: relative;
+    top: 80px;
+    right: 50px;
+    color: gray;
+}
+.footer{
+    display: flex;
+    height: 300px;
+    padding: 20px 120px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer ul{
+    list-style: none;
+}
+.footer ul li{
+    color: gray;
+}
+.footer ul li:hover{
+  cursor: pointer;
+  color: white;
+}
+.footer p{
+    color: gray;
+    font-size: small;
+}
+.footer-one h1{
+    font-size: 34px;
+}
+.footer-two h1{
+    font-size: 25px;
+}
+.footer-three h1{
+    font-size: 25px;
+}
+.footer-one{
+    position: relative;
+    top: -45px;
+    font-size: 30px;
+}
+.insta-img{
+    width: 25px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+.footer a{
+    text-decoration: none;
+    color: gray;
+    position: relative;
+    top: 1px;
+    font-size: medium;
+}
+.footer-one a{
+    position: relative;
+    top: -13px;
+    left: -5px;
+    font-size: 14px;
+}
+.footer-one a:hover{
+    color: white;
+}
+.footer-rights p{
+    color: gray;
+    justify-content: center;
+
+text-align: center;
+padding-bottom: 10px;
+font-size: small;
+}
+.btn{
+  background-color: rgb(18, 18, 62);
+  color: white;
+  /* width: 90px; */
+  padding: 10px;
+  margin-top: 9px;
+  border-radius: 7px;
+  border: 2px solid white;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: white;
+  color: black;
+  /* border: 2px solid rgb(159, 81, 233); */
+}
+.instagram-icon{
+  width: 30px;
+  height: 30px;
+  margin-top: 8px;
+  background: url('instagram-logo-png-transparent-background-hd-3.png') center/cover;
+  cursor: pointer;
+  position: relative;
+  left: 18px;
+  margin-bottom: 5px;
+}
+.insta-p{
+  position: relative;
+  left: -70px;
+  
+}
+@media screen and (max-width: 800px) {
+
+  nav{
+    flex-direction: column;
+    height: 48vw;
+    width: 150vw;
+  }
+  nav .right{
+    font-size: 16px;
+  }
+  nav .left{
+    position: relative;
+    top: 12px;
+    font-size: 60px;
+  }
+  .vertical-line{
+    flex-direction: column;
+  }
+  .secondSection .horizontal{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 6vw;
+  }
+  .title, .description{
+    left: 45px;
+  }
+  .firstSection{
+    flex-direction: column;
+    height: 200vw;
+    width: 240vw;
+    position: relative;
+    right: 350px;
+  }
+  hr{
+    width: 120%;
+    position: relative;
+    left: -27px;
+  }
+  .leftSection{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top:130vw;
+    left: 23%;
+    font-size: 25px;
+  }
+  .rightSection{
+    width: 721px !important;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -70vw;
+  }
+  .rightSection img{
+    width: 90vw;
+    margin-bottom: 73px;
+    position: relative;
+    top: -60px;
+    left: 26%;
+    
+  }
+  .btn{
+    width: 170px;
+    height: 70px;
+    font-size: 20px;
+    border-radius: 15px;
+    position: relative;
+    left: 50px;
+    top: -15px;
+  }
+  .secondSection{
+    height: 710vw;
+    justify-content: space-between;
+  }
+  .vertical-line{
+    width: 160%;
+    position: relative;
+    right: 35px;
+  }
+
+  .horizontal{
+    position: relative;
+    top: 350vw;
+    font-size: 40px;
+    padding-bottom: 100vw;
+    /* margin: 100px; */
+  }
+  .title, .description{
+    position: relative;
+    top: -90px;
+  }
+  .description{
+    font-size: 13px;
+  }
+  .image{
+    width: 50px;
+    position: relative;
+    left: -24px;
+  }
+  .thirdSection{
+    height: 110vw;
+    font-size: 10px;
+    width: 290px;
+  }
+  .notes{
+    font-size: 20px;
+    position: relative;
+    left: 50px;
+  }
+  .footer{
+    /* width: 150vw; */
+    height: 330vw;
+    flex-direction: column;
+  }
+  .footer-one{
+    width: 350px;
+    position: relative;
+    left: 100px;
+  }
+  .footer-one h1{
+    font-size: 64px;
+    text-align: center;
+  }
+  .footer-one p{
+    font-size: 20px;
+    text-align: center;
+  }
+  .instagram-icon{
+    position: relative;
+    left: 140px;
+    top: 15px;
+    width: 50px;
+    height: 50px;
+  }
+  .Insta-p{
+    display: none;
+  }
+  .footer-two{
+    /* width: 700px; */
+    position: relative;
+    left: 60px;
+    margin-bottom: 20px;
+    /* text-align: center; */
+  }
+  .footer-two h1{
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    left: 20px;
+  }
+  .footer-two ul{
+    position: relative;
+    left: 15px;
+    /* text-align: center; */
+    font-size: 25px;
+  }
+  .footer-three{
+    width: 300px;
+    position: relative;
+    left: 80px;
+    /* text-align: center; */
+  }
+  .footer-three h1{
+    font-size: 40px;
+    text-align: center;
+  }
+  .footer-three ul{
+    position: relative;
+    left: 70px;
+    font-size: 25px;
+  }
+  .footer-rights{
+    height: 50px;
+    margin-bottom: 20px;
+  }
+  .footer-rights p{
+    text-align: center;
+    position: relative;
+    left: 100px;
+  }
+
+}
+ 
